@@ -1,0 +1,65 @@
+/* Fonts */
+/* Colors */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 2px 5px 10px 0 rgb(164, 163, 163);
+}
+.container .section-top {
+  display: flex;
+  border-bottom: 3px solid #e4e0e0;
+}
+.container .section-top img {
+  border-radius: 15px 0 0 0;
+  width: 200px;
+  height: 200px;
+}
+.container .section-top .container-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+.container .section-top .container-info h1 {
+  font-size: 60px;
+  margin: 30px 0 20px 0;
+}
+.container .section-top .container-info h2 {
+  font-size: 25px;
+  opacity: 0.7;
+  margin: 0 0 10px 0;
+}
+.container .section-top .container-info p {
+  font-size: 20px;
+  opacity: 0.7;
+  margin: 0;
+}
+.container .section-bottom {
+  display: flex;
+  justify-content: space-between;
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+.container .section-bottom h2 {
+  font-size: 25px;
+  opacity: 0.7;
+  margin: 34px;
+}
+.container .section-bottom .rating {
+  display: flex;
+  align-items: center;
+  margin: 0 50px 0 0;
+}
+.container .section-bottom .rating a {
+  font-size: 40px;
+  color: #e4e0e0;
+  padding: 0 5px;
+}/*# sourceMappingURL=Card.css.map */

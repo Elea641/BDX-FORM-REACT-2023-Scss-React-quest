@@ -1,0 +1,76 @@
+@import '../styles/variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    border-radius: 15px;
+    background-color: $background-color-card;
+    box-shadow: 2px 5px 10px 0 rgb(164, 163, 163);
+
+    .section-top {
+        display: flex;
+        border-bottom: 3px solid $border-color;
+
+        img {
+            border-radius: 15px 0 0 0;
+            width: 200px;
+            height: 200px;
+        }
+    
+        .container-info{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            font: 100% $font-stack;
+            color: $primary-color;
+    
+            h1 {
+                font-size: 60px;
+                margin: 30px 0 20px 0;
+            }
+    
+            h2 {
+                font-size: 25px;
+                opacity: 0.7;
+                margin: 0 0 10px 0;
+            }
+            
+            p {
+                font-size: 20px;
+                opacity: 0.7;
+                margin: 0;
+            }
+        }
+        
+    }
+    
+    .section-bottom {
+        display: flex;
+        justify-content: space-between;
+        font: 100% $font-stack;
+        color: $primary-color;
+
+        h2 {
+            font-size: 25px;
+            opacity: 0.7;
+            margin: 34px;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            margin: 0 50px 0 0;
+
+            a {
+                font-size: 40px;
+                color: $a-color;
+                padding: 0 5px;
+            }
+        }
+    }
+}
