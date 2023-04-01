@@ -1,2 +1,2 @@
 # BDX-FORM-REACT-2023-Scss-React-quest
-J'ai choisi d'inclure le scss pour pouvoir m'entraîner pour le projet 2.
+I chose to include the scss so I could practice for project 2.
